@@ -8,8 +8,8 @@ import ReactMarkdown from 'react-markdown';
 // import animationData from '../Lotties/Robot-loading.json';
 // import animationData from '../Lotties/Hand-robot.json';
 // import SubmitLoading from '../Lotties/submit-loading.json';
-const SubmitLoading  = require("../Lotties/Submit-loading.json");
-const animationData = require("../Lotties/Hand-robot.json");
+// const SubmitLoading  = require("../Lotties/Submit-loading.json");
+// const animationData = require("../Lotties/Hand-robot.json");
 const serverUrl = "http://localhost:5000/api";
 
 interface Message {
@@ -223,7 +223,7 @@ const Assistant = () => {
     };
     return (
         <DefaultLayout>
-            {
+            {/* {
                 (!submitLoading && !responseExist) &&
                 (
                     <div className=''>
@@ -234,8 +234,8 @@ const Assistant = () => {
                         />
                     </div>
                 )
-            }
-            {
+            } */}
+            {/* {
                 (submitLoading && !responseExist) &&
                 (
                     <div className=''>
@@ -246,7 +246,7 @@ const Assistant = () => {
                         />
                     </div>
                 )
-            }
+            } */}
             {/* {messages?.map((message) => (
                 <>
                     <Message key={message.id} message={message} />
